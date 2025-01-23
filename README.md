@@ -84,6 +84,8 @@ python3 deepseek.py send "Hello, how are you?"
 - `--attach`: Attach to an existing session by name or number for context.
 - `--verbose`: Display the full JSON response from Deepseek AI.
 - `--beautify`: Enable or disable colorized output. Defaults to `true`. Set to `false` to disable.
+- `--config <path>`: Specify a custom configuration file
+
 **Example:**
 ```bash
 python3 deepseek.py send "Explain the concept of recursion in Python." --max_tokens 500
