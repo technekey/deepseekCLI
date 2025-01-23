@@ -1,4 +1,15 @@
-**Deepseek CLI** is a powerful command-line interface tool designed to interact seamlessly with the Deepseek AI API. Whether you're looking to send quick queries, engage in interactive conversations, or manage your AI sessions. This is not at all associated with deepseek project. This repo provide terminal based client using deepseek API to converse with deepseek API.
+**Deepseek CLI** is a powerful command-line interface tool designed to interact seamlessly with the Deepseek AI API. Whether you're looking to send quick queries, engage in interactive conversations, or manage your AI sessions. **This is not at all associated with deepseek project.** This repo provide terminal based client using deepseek API to converse with deepseek API.
+
+Note: You can switch between models and change temperature during the ongoing conversation.
+
+## Hotkeys
+
+```
+CTRL + T : To change the temperature
+CTRL + X : To change the model. 
+CTRL + D : To send the message.
+CTRL + C : To exit. 
+```
 
 ## Table of Contents
 
