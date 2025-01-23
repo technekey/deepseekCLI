@@ -79,7 +79,7 @@ python3 deepseek.py send "Hello, how are you?"
 **Options:**
 - `--model`: Specify the AI model to use. Defaults to `deepseek-chat`.
 - `--stream`: Enable streaming responses from Deepseek AI.
-- `--temperature`: Set the sampling temperature for response generation. Higher values make output more
+- `--temperature`: Set the sampling temperature for response generation. Higher values make output more optimized.
 - `--max_tokens`: Define the maximum number of tokens in the response. Defaults to `8192`.
 - `--attach`: Attach to an existing session by name or number for context.
 - `--verbose`: Display the full JSON response from Deepseek AI.
@@ -220,4 +220,16 @@ Enter the session number to view its history (or press Enter to return): 2
 Conversation History for Session 'project_discussion':
 System: You are a highly knowledgeable and accurate assistant. Please provide correct and concise answUser: How can we improve our project's scalability?
 Assistant: [Assistant's detailed response]
+```
+
+
+## Temperature 
+
+```
+USECASE	TEMPERATURE
+Coding / Math   	0.0
+Data Cleaning / Data Analysis	1.0
+General Conversation	1.3
+Translation	1.3
+Creative Writing / Poetry	1.5
 ```
