@@ -1,3 +1,5 @@
 argparse
 requests
 prompt_toolkit
+colorama
+pygments
