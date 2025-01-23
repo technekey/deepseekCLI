@@ -2,14 +2,7 @@
 
 Note: You can switch between models and change temperature during the ongoing conversation.
 
-## Hotkeys
 
-```
-CTRL + T : To change the temperature
-CTRL + X : To change the model. 
-CTRL + D : To send the message.
-CTRL + C : To exit. 
-```
 
 ## Table of Contents
 
@@ -170,6 +163,7 @@ You: What are the benefits of using design patterns in software development?
 Deepseek AI Response:
 [Assistant's detailed response]
 ```
+
 ## Attaching to an Existing Session Named 'project_discussion'
 Continue an ongoing conversation stored under the session name `project_discussion`.
 ```bash
@@ -226,7 +220,14 @@ Conversation History for Session 'project_discussion':
 System: You are a highly knowledgeable and accurate assistant. Please provide correct and concise answUser: How can we improve our project's scalability?
 Assistant: [Assistant's detailed response]
 ```
+## Hotkeys
 
+```
+CTRL + T : To change the temperature
+CTRL + X : To change the model. 
+CTRL + D : To send the message.
+CTRL + C : To exit. 
+```
 
 ## Temperature 
 
