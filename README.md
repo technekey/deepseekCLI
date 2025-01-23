@@ -90,8 +90,9 @@ python3 deepseek.py send "Hello, how are you?"
 ```bash
 python3 deepseek.py send "Explain the concept of recursion in Python." --max_tokens 500
 ```
-## Interactive Mode
-Start an interactive chat session with Deepseek AI, allowing for ongoing conversations with context preserv```bash
+## Interactive Mode...similar to web UI expereince
+Start an interactive chat session with Deepseek AI, allowing for ongoing conversations with context preserv
+```bash
 python3 deepseek.py interactive
 ```
 **Options:**
@@ -114,11 +115,14 @@ Deepseek AI Response:
 ## Attach to an Existing Session
 Continue a previously saved conversation session to maintain context.
 
+```
 python3 deepseek.py interactive --attach 1
 ```
 *Assuming `1` is the session number or name.*
+
 ## List Available Models
 View all AI models supported by Deepseek AI.
+
 ```bash
 python3 deepseek.py list-models
 ```
@@ -147,7 +151,8 @@ python3 deepseek.py health-check
 ## Sending a Message with Increased Token Limit
 Ensure you receive detailed responses by increasing the `max_tokens` parameter.
 ```bash
-python3 deepseek.py send "Explain the concept of polymorphism in object-oriented programming." --max_```
+python3 deepseek.py send "Explain the concept of polymorphism in object-oriented programming." max_tokens 150
+```
 ## Starting a New Interactive Session
 Begin a fresh conversation with Deepseek AI.
 ```bash
