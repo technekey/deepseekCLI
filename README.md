@@ -14,7 +14,6 @@
   - [Check API Usage](#check-api-usage)
   - [Reset Conversation Histories](#reset-conversation-histories)
   - [View Conversation Histories](#view-conversation-histories)
-  - [Health Check](#health-check)
 - [Examples](#examples)
 - [Logging](#logging)
 - [Troubleshooting](#troubleshooting)
@@ -140,11 +139,6 @@ python3 deepseek.py reset
 List and view saved conversation histories.
 ```bash
 python3 deepseek.py history
-```
-## Health Check
-Perform a health check to verify API connectivity and status.
-```bash
-python3 deepseek.py health-check
 ```
 ---
 # Examples
